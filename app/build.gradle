@@ -4,7 +4,6 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 ext {
-
     // App dependencies
     supportLibVersion = '1.0.0'
     appCompatLibVersion = '1.0.2'

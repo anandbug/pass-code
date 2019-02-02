@@ -24,9 +24,6 @@ class HomeActivity : AppCompatActivity() {
         userAdapter = UserAdapter()
         recyclerView?.adapter = userAdapter
 
-        //val user = User(UUID.randomUUID().toString(), "user1", 560483, null)
-        //userAdapter?.addUser(user)
-
         fab?.setOnClickListener {
             callCamera()
         }
